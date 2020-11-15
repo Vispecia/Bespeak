@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:id="@+id/search_app_bar"
+        android:title="Search"/>
+
+    <item
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_request"
+        app:showAsAction="always"
+        android:id="@+id/request_app_bar"
+        android:title="Requests"/>
+
+
+    <item
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_collections"
+        app:showAsAction="always"
+        android:id="@+id/profile_app_bar"
+        android:title="Profile"/>
+
+    <item
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"
+        android:id="@+id/settings_app_bar"
+        android:title="Settings"/>
+
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+<!--        <com.mikhaellopez.circularimageview.CircularImageView-->
+<!--            android:id="@+id/receiver_sender_chat_user_profile_img"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_avatar"-->
+<!--            app:civ_border_color="#FFFF00"-->
+<!--            app:civ_border_width="1dp"-->
+<!--            app:civ_shadow="false"-->
+<!--            app:civ_shadow_color="#686868" />-->
+
+        <TextView
+            android:id="@+id/receiver_sender_chat_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_receiver"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="25dp"
+            android:paddingBottom="15dp"
+            android:text="This is message"
+            android:textColor="#2b2b2b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/receiver_sender_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/receiver_sender_isSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Seen"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

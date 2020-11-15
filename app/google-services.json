@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "669053038561",
+    "firebase_url": "https://bespeak-b582e.firebaseio.com",
+    "project_id": "bespeak-b582e",
+    "storage_bucket": "bespeak-b582e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669053038561:android:063bd74df5c21e78492ca0",
+        "android_client_info": {
+          "package_name": "com.app.vispecia.bespeak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669053038561-kpn8v4t72m3vi11vls3qhac1qnt84pat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqZtOQA1H-rP5qUf4ohrSdJSDl0Geq2KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669053038561-kpn8v4t72m3vi11vls3qhac1qnt84pat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

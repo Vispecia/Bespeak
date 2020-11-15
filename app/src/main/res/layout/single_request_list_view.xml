@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:longClickable="true"
+    app:cardCornerRadius="4dp">
+
+    <View
+        android:id="@+id/exchange"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_gravity="center"
+            android:id="@+id/profile_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_avatar"
+            app:civ_border_color="#FFFF00"
+            app:civ_border_width="1dp"
+            app:civ_shadow="false"
+            android:elevation="1dp"
+            app:civ_shadow_color="#686868"
+            android:layout_weight="2"/>
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/bookName"
+            android:textColor="#2b2b2b"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:autoSizeTextType="uniform"
+            android:text="Bespeak for Book Name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:id="@+id/bookImageHolder"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

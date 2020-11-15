@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">bespeak</string>
+    <string name="search">Search</string>
+    <string name="saved_message">Image Saved at %1$s</string>
+    <string name="error">Error finding image</string>
+    <string name="place">Select place</string>
+
+
+    <string-array name="places">
+        <item>Delhi</item>
+        <item>Maharashtra</item>
+        <item>Kerela</item>
+        <item>Uttar Pradesh</item>
+        <item>Rajasthan</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
